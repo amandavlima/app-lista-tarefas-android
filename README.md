@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Platform-Android-green" alt="Android">
   <img src="https://img.shields.io/badge/Language-Kotlin-purple" alt="Kotlin">
   <img src="https://img.shields.io/badge/IDE-Android%20Studio-blue" alt="Android Studio">
-  <img src="https://img.shields.io/badge/Module-5-orange" alt="Modulo 5">
+  <img src="https://img.shields.io/badge/Modulo-5-orange" alt="Modulo 5">
 </p>
 
 ---
@@ -184,18 +184,21 @@ O design foi planejado para manter a navegação simples e reduzir a quantidade 
 │                                │
 └────────────────────────────────┘
 
-Persistência de Dados — Módulo 5
+## **Persistência de Dados — Módulo 5**
 
 A persistência de dados é uma parte importante do Módulo 5.
 
-O projeto utiliza SharedPreferences e getSharedPreferences() como mecanismo de armazenamento local para informações simples do aplicativo.
+O projeto utiliza **SharedPreferences** e `getSharedPreferences()` como mecanismo de armazenamento local para informações simples do aplicativo.
 
 Essa abordagem permite salvar e recuperar dados diretamente no dispositivo, evitando que as informações sejam perdidas simplesmente quando uma tela ou Activity é encerrada.
 
-Estrutura do Projeto
+---
+
+## **Estrutura do Projeto**
 
 A estrutura principal do aplicativo inclui:
 
+```text
 app/
 │
 ├── MainActivity.kt
@@ -206,35 +209,41 @@ app/
 │
 └── Tarefa.kt
 
-Principais componentes
-MainActivity.kt
+## **Principais Componentes**
+
+### **MainActivity.kt**
 
 Responsável pela tela principal do aplicativo e pela apresentação da lista de tarefas.
 
-AddTaskActivity.kt
+### **AddTaskActivity.kt**
 
 Responsável pela criação e cadastro de novas tarefas.
 
-TaskDetailActivity.kt
+### **TaskDetailActivity.kt**
 
 Responsável pela visualização das informações e gerenciamento dos detalhes de uma tarefa.
 
-Tarefa.kt
+### **Tarefa.kt**
 
 Modelo utilizado para representar uma tarefa.
 
-A tarefa possui informações como:
+## **A Tarefa Possui Informações Como:**
 
+```text
 Tarefa
 ├── titulo
 ├── descricao
 ├── concluida
 └── prioridade
 
-| Versão  | Alterações                                                                     |
-| ------- | ------------------------------------------------------------------------------ |
-| **0.1** | Criação da estrutura inicial do aplicativo e da tela principal                 |
-| **0.2** | Criação da tela Nova Tarefa e implementação da navegação                       |
-| **0.3** | Implementação do modelo de tarefa, prioridade, status e detalhes               |
-| **0.4** | Implementação/estruturação da persistência local e atualização da documentação |
-| **0.5** | Preparação do projeto e README para a entrega do Módulo 5                      |
+## **Versão | Alterações**
+
+**0.1** — Criação da estrutura inicial do aplicativo e da tela principal
+
+**0.2** — Criação da tela Nova Tarefa e implementação da navegação
+
+**0.3** — Implementação do modelo de tarefa, prioridade, status e detalhes
+
+**0.4** — Implementação/estruturação da persistência local e atualização da documentação
+
+**0.5** — Preparação do projeto e README para a entrega do Módulo 5
