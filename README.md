@@ -1,127 +1,143 @@
-App Lista de Tarefas
+# App Lista de Tarefas
 
-Rascunho do Projeto — Módulo 5
+<p align="center">
+  <strong>Aplicativo Android para organização e gerenciamento de tarefas</strong>
+</p>
 
-Projeto: App Lista de Tarefas
-Plataforma: Android
-Repositório: https://github.com/amandavlima/app-lista-tarefas-android
+<p align="center">
+  Projeto acadêmico — Módulo 5
+</p>
 
-1. Descrição do projeto
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-green" alt="Android">
+  <img src="https://img.shields.io/badge/Language-Kotlin-purple" alt="Kotlin">
+  <img src="https://img.shields.io/badge/IDE-Android%20Studio-blue" alt="Android Studio">
+  <img src="https://img.shields.io/badge/Module-5-orange" alt="Modulo 5">
+</p>
 
-O App Lista de Tarefas é um aplicativo móvel Android desenvolvido para ajudar o usuário a organizar atividades do dia a dia de maneira simples e objetiva. O aplicativo permite criar tarefas, visualizar informações, identificar tarefas concluídas ou pendentes e excluir tarefas quando necessário.
+---
 
-O projeto foi desenvolvido como atividade acadêmica no curso de Tecnologia da Informação, utilizando o Android Studio.
+## Sobre o Projeto
 
-2. Declaração do problema
+O **App Lista de Tarefas** é um aplicativo móvel desenvolvido para a plataforma Android com o objetivo de ajudar os usuários a organizar e acompanhar suas atividades do dia a dia de maneira simples, prática e intuitiva.
 
-Muitas pessoas precisam administrar várias atividades ao mesmo tempo e podem esquecer compromissos ou perder o controle do que já foi realizado. Anotações em papel ou listas dispersas dificultam a organização e a atualização das tarefas.
+O aplicativo permite criar tarefas, adicionar informações importantes, definir prioridades, acompanhar o status de conclusão e gerenciar as tarefas cadastradas em um único lugar.
 
-O problema abordado pelo projeto é a necessidade de uma solução móvel simples, acessível e fácil de usar para registrar e acompanhar tarefas em um único local.
+> **Objetivo:** desenvolver uma solução móvel simples e funcional para melhorar a organização das tarefas pessoais e acadêmicas.
 
-3. Plataforma
+---
 
-Android
+## Declaração do Problema
 
-Desenvolvimento no Android Studio
+No dia a dia, muitas pessoas precisam administrar diversas atividades e podem esquecer tarefas, perder prazos ou ter dificuldade para acompanhar o que já foi realizado.
 
-Linguagem: Kotlin
+Anotações em papel ou informações distribuídas em diferentes locais podem tornar esse processo menos eficiente.
 
-Interface baseada em layouts XML
+O **App Lista de Tarefas** busca solucionar esse problema oferecendo uma ferramenta centralizada para registrar, organizar e acompanhar tarefas diretamente pelo dispositivo móvel.
 
-Navegação entre telas com Intent
+---
 
-Uso de componentes Android para interação com o usuário
+## Funcionalidades
 
-Persistência local planejada/implementada no Módulo 5 com SharedPreferences, conforme os requisitos da disciplina
+O aplicativo possui as seguintes funcionalidades:
 
-4. Interface do usuário
+- ✅ Criar novas tarefas
+- 📝 Adicionar título e descrição
+- ⭐ Definir prioridade
+- ✔️ Identificar tarefas concluídas e pendentes
+- 📋 Visualizar a lista de tarefas
+- 📄 Visualizar os detalhes de uma tarefa
+- 🗑️ Excluir tarefas
+- 💾 Armazenar informações localmente
+- 🔄 Recuperar informações armazenadas
+- 📱 Navegar entre diferentes telas do aplicativo
 
-A interface do usuário foi projetada para ser direta e intuitiva.
+---
 
-Tela principal — Minhas Tarefas
+## Tecnologias Utilizadas
 
-A tela principal apresenta:
+| Tecnologia | Utilização |
+|---|---|
+| **Kotlin** | Linguagem de programação |
+| **Android Studio** | Ambiente de desenvolvimento |
+| **Android SDK** | Desenvolvimento da aplicação |
+| **XML** | Construção das interfaces |
+| **SharedPreferences** | Persistência local de dados |
+| **Intent** | Navegação entre telas e passagem de dados |
+| **Git** | Controle de versão |
+| **GitHub** | Hospedagem e documentação do projeto |
 
-título do aplicativo;
+---
 
-lista de tarefas;
+## Plataforma
 
-indicação de tarefas concluídas e pendentes;
+O aplicativo foi desenvolvido para dispositivos com sistema operacional **Android**, utilizando o **Android Studio** como ambiente de desenvolvimento.
 
-botão + Nova Tarefa para criar uma tarefa.
+A aplicação utiliza componentes nativos da plataforma Android para criar a interface, controlar a navegação e armazenar informações localmente.
 
-Tela Nova Tarefa
+---
 
-A tela de cadastro permite informar:
+## Interface do Usuário
 
-título;
+A interface foi desenvolvida com foco em simplicidade, organização e facilidade de utilização.
 
-descrição;
+### Minhas Tarefas
 
-prioridade.
+A tela principal apresenta as tarefas cadastradas e permite ao usuário acompanhar quais atividades estão pendentes ou concluídas.
 
-Após o cadastro, a tarefa pode ser apresentada na lista principal.
+**Principais elementos:**
 
-Tela de detalhes
+- Lista de tarefas
+- Status de conclusão
+- Informações da tarefa
+- Botão para adicionar uma nova tarefa
 
-A tela de detalhes apresenta as informações da tarefa e permite realizar ações relacionadas à tarefa, incluindo sua exclusão mediante confirmação.
+---
 
-5. Interface do administrador
+### Nova Tarefa
 
-O aplicativo não possui uma interface administrativa separada, painel web ou servidor. O projeto foi concebido como um aplicativo pessoal de gerenciamento de tarefas.
+A tela **Nova Tarefa** permite que o usuário cadastre uma nova atividade.
 
-A manutenção técnica do aplicativo é realizada pelo desenvolvedor por meio do Android Studio e do GitHub. Portanto, a função administrativa está relacionada ao desenvolvimento e manutenção do código, e não a uma área administrativa utilizada pelo usuário final.
+O usuário pode informar:
 
-6. Funcionalidade
+- Título
+- Descrição
+- Prioridade
 
-As principais funcionalidades do protótipo são:
+Após o preenchimento das informações, a tarefa pode ser salva e adicionada à lista principal.
 
-Visualizar a lista de tarefas.
+---
 
-Criar uma nova tarefa.
+### Detalhes da Tarefa
 
-Informar título, descrição e prioridade.
+A tela de detalhes permite visualizar as informações completas de uma tarefa cadastrada.
 
-Identificar tarefas concluídas e pendentes.
+O usuário pode consultar:
 
-Abrir informações da tarefa.
+- Título
+- Descrição
+- Prioridade
+- Status da tarefa
 
-Excluir uma tarefa com confirmação.
+Também é possível realizar ações relacionadas à tarefa, como sua exclusão.
 
-Navegar entre as telas utilizando Intent.
+---
 
-Armazenar/recuperar dados localmente conforme a estratégia de persistência do Módulo 5.
+## Interface do Administrador
 
-7. Estrutura principal do aplicativo
+O aplicativo não possui uma interface administrativa separada ou um painel web.
 
-MainActivity.kt — tela principal e acesso à lista de tarefas.
+O projeto foi desenvolvido como uma aplicação pessoal de gerenciamento de tarefas. Dessa forma, o usuário final utiliza diretamente as telas do aplicativo, enquanto a manutenção técnica e administrativa do projeto é realizada pelo desenvolvedor por meio do **Android Studio** e do **GitHub**.
 
-AddTaskActivity.kt — tela de criação de novas tarefas.
+---
 
-TaskDetailActivity.kt — visualização dos detalhes e ações da tarefa.
+## Design e Wireframes
 
-Tarefa — modelo de dados utilizado para representar uma tarefa.
+O design foi planejado para manter a navegação simples e reduzir a quantidade de etapas necessárias para criar e gerenciar uma tarefa.
 
-Exemplo conceitual do modelo:
+### Wireframe — Minhas Tarefas
 
-Tarefa
-├── titulo
-├── descricao
-├── concluida
-└── prioridade
-
-8. Persistência de dados — Módulo 5
-
-O Módulo 5 introduz a persistência de dados em aplicativos Android. Para informações simples relacionadas às tarefas, a solução considerada para este projeto é o SharedPreferences, permitindo salvar e recuperar dados localmente no dispositivo.
-
-A abordagem também utiliza getSharedPreferences() para acessar o armazenamento local do aplicativo.
-
-O objetivo é evitar que os dados desapareçam simplesmente quando a Activity é encerrada ou quando o usuário retorna à tela principal.
-
-9. Design / Wireframes
-
-Wireframe 1 — Tela principal
-
+```text
 ┌────────────────────────────────┐
 │          Minhas Tarefas        │
 ├────────────────────────────────┤
@@ -134,11 +150,10 @@ Wireframe 1 — Tela principal
 │                      Tarefa    │
 └────────────────────────────────┘
 
-Wireframe 2 — Nova tarefa
-
 ┌────────────────────────────────┐
 │          Nova Tarefa           │
 ├────────────────────────────────┤
+│                                │
 │ Título                         │
 │ [___________________________]  │
 │                                │
@@ -149,14 +164,14 @@ Wireframe 2 — Nova tarefa
 │ Prioridade                     │
 │ [___________________________]  │
 │                                │
-│             [ Salvar ]         │
+│             [ SALVAR ]         │
+│                                │
 └────────────────────────────────┘
 
-Wireframe 3 — Detalhes
-
 ┌────────────────────────────────┐
-│        Detalhes da Tarefa      │
+│       Detalhes da Tarefa       │
 ├────────────────────────────────┤
+│                                │
 │ Título: Estudar Android        │
 │                                │
 │ Descrição:                     │
@@ -165,57 +180,61 @@ Wireframe 3 — Detalhes
 │ Prioridade: Alta               │
 │ Status: Pendente               │
 │                                │
-│           [ Excluir ]          │
+│           [ EXCLUIR ]          │
+│                                │
 └────────────────────────────────┘
 
-10. Objetivo do produto
+Persistência de Dados — Módulo 5
 
-O objetivo é oferecer uma ferramenta pequena, clara e funcional para gerenciamento de tarefas, priorizando facilidade de uso e organização.
+A persistência de dados é uma parte importante do Módulo 5.
 
-11. Evolução do projeto
+O projeto utiliza SharedPreferences e getSharedPreferences() como mecanismo de armazenamento local para informações simples do aplicativo.
 
-O projeto foi construído progressivamente, partindo da tela principal e da navegação para a criação de tarefas e, posteriormente, para detalhes, exclusão e persistência dos dados.
+Essa abordagem permite salvar e recuperar dados diretamente no dispositivo, evitando que as informações sejam perdidas simplesmente quando uma tela ou Activity é encerrada.
 
-O GitHub é utilizado para versionamento e documentação do desenvolvimento.
+Estrutura do Projeto
 
-12. Registro de alterações
+A estrutura principal do aplicativo inclui:
 
-Versão 0.1 — Estrutura inicial
+app/
+│
+├── MainActivity.kt
+│
+├── AddTaskActivity.kt
+│
+├── TaskDetailActivity.kt
+│
+└── Tarefa.kt
 
-Criação do projeto Android.
+Principais componentes
+MainActivity.kt
 
-Criação da tela principal.
+Responsável pela tela principal do aplicativo e pela apresentação da lista de tarefas.
 
-Criação da tela Nova Tarefa.
+AddTaskActivity.kt
 
-Versão 0.2 — Navegação
+Responsável pela criação e cadastro de novas tarefas.
 
-Implementação da navegação entre Activities.
+TaskDetailActivity.kt
 
-Uso de Intent e Intent Extras.
+Responsável pela visualização das informações e gerenciamento dos detalhes de uma tarefa.
 
-Versão 0.3 — Gerenciamento de tarefas
+Tarefa.kt
 
-Inclusão do modelo Tarefa.
+Modelo utilizado para representar uma tarefa.
 
-Exibição de tarefas.
+A tarefa possui informações como:
 
-Controle de concluída/pendente.
+Tarefa
+├── titulo
+├── descricao
+├── concluida
+└── prioridade
 
-Inclusão de prioridade.
-
-Tela de detalhes.
-
-Exclusão com confirmação.
-
-Versão 0.4 — Módulo 5
-
-Preparação da persistência local.
-
-Uso de SharedPreferences/getSharedPreferences() como abordagem de armazenamento simples.
-
-Atualização da documentação no README.
-
-13. Conclusão
-
-O App Lista de Tarefas atende ao objetivo de criar uma solução Android simples para organização pessoal. O projeto demonstra conceitos de interface, navegação entre Activities, passagem de dados, gerenciamento de tarefas e persistência local, além do uso do GitHub para versionamento e documentação.
+| Versão  | Alterações                                                                     |
+| ------- | ------------------------------------------------------------------------------ |
+| **0.1** | Criação da estrutura inicial do aplicativo e da tela principal                 |
+| **0.2** | Criação da tela Nova Tarefa e implementação da navegação                       |
+| **0.3** | Implementação do modelo de tarefa, prioridade, status e detalhes               |
+| **0.4** | Implementação/estruturação da persistência local e atualização da documentação |
+| **0.5** | Preparação do projeto e README para a entrega do Módulo 5                      |
