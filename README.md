@@ -216,8 +216,6 @@ Uso de SharedPreferences/getSharedPreferences() como abordagem de armazenamento 
 
 Atualização da documentação no README.
 
-Preparação do rascunho para publicação no GitHub Classroom.
-
 13. Conclusão
 
 O App Lista de Tarefas atende ao objetivo de criar uma solução Android simples para organização pessoal. O projeto demonstra conceitos de interface, navegação entre Activities, passagem de dados, gerenciamento de tarefas e persistência local, além do uso do GitHub para versionamento e documentação.
