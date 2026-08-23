@@ -184,7 +184,7 @@ O design foi planejado para manter a navegação simples e reduzir a quantidade 
 │                                │
 └────────────────────────────────┘
 
-**Persistência de Dados — Módulo 5**
+## **Persistência de Dados — Módulo 5**
 
 A persistência de dados é uma parte importante do Módulo 5.
 
@@ -194,7 +194,7 @@ Essa abordagem permite salvar e recuperar dados diretamente no dispositivo, evit
 
 ---
 
-**Estrutura do Projeto**
+## **Estrutura do Projeto**
 
 A estrutura principal do aplicativo inclui:
 
@@ -202,12 +202,10 @@ A estrutura principal do aplicativo inclui:
 app/
 │
 ├── MainActivity.kt
-│
 ├── AddTaskActivity.kt
-│
 ├── TaskDetailActivity.kt
-│
 └── Tarefa.kt
+```
 
 ## **Principais Componentes**
 
@@ -227,23 +225,25 @@ Responsável pela visualização das informações e gerenciamento dos detalhes 
 
 Modelo utilizado para representar uma tarefa.
 
-## **A Tarefa Possui Informações Como:**
+## **A Tarefa Possui Informações como:**
 
 ```text
 Tarefa
 ├── titulo
-├── descricao
+├── descrição
 ├── concluida
 └── prioridade
+```
 
 ## **Versão | Alterações**
 
-**0.1** — Criação da estrutura inicial do aplicativo e da tela principal
+**0.1** — Criação da estrutura inicial do aplicativo e da tela principal.
 
-**0.2** — Criação da tela Nova Tarefa e implementação da navegação
+**0.2** — Criação da tela Nova Tarefa e implementação da navegação.
 
-**0.3** — Implementação do modelo de tarefa, prioridade, status e detalhes
+**0.3** — Implementação do modelo de tarefa, prioridade, status e detalhes.
 
-**0.4** — Implementação/estruturação da persistência local e atualização da documentação
+**0.4** — Implementação/estruturação da persistência local e atualização da documentação.
 
-**0.5** — Preparação do projeto e README para a entrega do Módulo 5
+**0.5** — Preparação do projeto e README para a entrega do Módulo 5.
+
