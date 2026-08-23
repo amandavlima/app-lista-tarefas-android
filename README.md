@@ -184,7 +184,7 @@ O design foi planejado para manter a navegação simples e reduzir a quantidade 
 │                                │
 └────────────────────────────────┘
 
-## **Persistência de Dados — Módulo 5**
+**Persistência de Dados — Módulo 5**
 
 A persistência de dados é uma parte importante do Módulo 5.
 
@@ -194,7 +194,7 @@ Essa abordagem permite salvar e recuperar dados diretamente no dispositivo, evit
 
 ---
 
-## **Estrutura do Projeto**
+**Estrutura do Projeto**
 
 A estrutura principal do aplicativo inclui:
 
