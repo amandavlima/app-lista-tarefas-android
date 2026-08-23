@@ -184,7 +184,7 @@ O design foi planejado para manter a navegação simples e reduzir a quantidade 
 │                                │
 └────────────────────────────────┘
 
-## **Persistência de Dados — Módulo 5**
+Persistência de Dados — Módulo 5
 
 A persistência de dados é uma parte importante do Módulo 5.
 
@@ -192,13 +192,10 @@ O projeto utiliza **SharedPreferences** e `getSharedPreferences()` como mecanism
 
 Essa abordagem permite salvar e recuperar dados diretamente no dispositivo, evitando que as informações sejam perdidas simplesmente quando uma tela ou Activity é encerrada.
 
----
-
-## **Estrutura do Projeto**
+Estrutura do Projeto
 
 A estrutura principal do aplicativo inclui:
 
-```text
 app/
 │
 ├── MainActivity.kt
