@@ -168,7 +168,6 @@ O design foi planejado para manter a navegação simples e reduzir a quantidade 
 │                                │
 └────────────────────────────────┘
 
-```text
 ┌────────────────────────────────┐
 │       Detalhes da Tarefa       │
 ├────────────────────────────────┤
